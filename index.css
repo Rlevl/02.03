@@ -1,12 +1,14 @@
 #container { border: 3px solid blue;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px 100px;
 
 }
 .clikk{
     border: 2px dashed red;
-    display: inline-block;
-    width: calc(100% /3);
-    box-sizing: border-box;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis:200px ;
+    flex: 1 0 200px;
 }
-
-    
-
