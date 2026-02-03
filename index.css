@@ -2,7 +2,11 @@
 
 }
 .clikk{
-    border: 2px dashed hotpink
+    border: 2px dashed red;
+    display: inline-block;
+    width: calc(100% /3);
+    box-sizing: border-box;
 }
+
     
 
