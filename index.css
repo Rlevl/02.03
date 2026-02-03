@@ -1,12 +1,9 @@
 #container { border: 3px solid blue;
-
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
 }
 .clikk{
     border: 2px dashed red;
-    display: inline-block;
-    width: calc(100% /3);
-    box-sizing: border-box;
-}
-
     
-
+}
